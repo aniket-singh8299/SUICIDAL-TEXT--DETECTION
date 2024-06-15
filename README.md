@@ -1,7 +1,9 @@
 # Suicidal Text Detection
 
-This project aims to build a predictive model to detect suicidal intent in social media posts, and to integrate the model into a functional mental health chatbot.
-
+Suicidal text detection is a critical task that aims to identify and classify text content that indicates suicidal ideation or poses a risk of self-harm.
+In this project we have used jupyter notebook and used a language which is python .
+Libraries used:- Numpy, Pandas, Seaborn, nltk , Streamlit etc.
+we have used some algorithm to check precision score and create a webpage using Streamlit Library.
 
 ## Project Directory Structure
 ```
@@ -26,8 +28,6 @@ This project aims to build a predictive model to detect suicidal intent in socia
 └── …
 ```
 This project is built on Python 3 and scripts were originally hosted on Google Colab. Required packages are installed individually in each `.ipynb` file.
-
-The [`Data/`](https://drive.google.com/drive/folders/15wje4eEGWjxq15KlVl8EuDiq6bPlpobi?usp=sharing) folder consists of the dataset and embeddings used, while the [`Models/`](https://drive.google.com/drive/folders/1QH5wrcaaIBMM71Ozw53CyVd84zOWFlEQ?usp=sharing) folder consists of the trained models.
 
 ## 1. Data Collection
 The [Suicide and Depression Detection dataset](https://www.kaggle.com/nikhileswarkomati/suicide-watch) is obtained from Kaggle and stored as `Data/suicide_detection.csv`. The dataset was scraped from Reddit and consists of 232,074 rows equally distributed between 2 classes - suicide and non-suicide.
@@ -60,7 +60,10 @@ The best variation of the aforementioned models can be seen in the table below. 
 | BERT | 0.9757 | 0.9669 | **0.9701** | 0.9685 |
 | **ELECTRA** | **0.9792** | **0.9788** | 0.9677 | **0.9732** |
 
-The suicidal BERT and ELECTRA text classification models trained are available on HuggingFace at [gooohjy/suicidal-bert](https://huggingface.co/gooohjy/suicidal-bert) and [gooohjy/suicidal-electra](https://huggingface.co/gooohjy/suicidal-electra).
+
+![Uploading image.png…]()
+
+
 
 ## 8. Chatbot Integration
 Run `chatbot.ipynb` to use the mental health chatbot, integrated with the suicidal detection model. The chatbot is based on DialoGPT and custom retrieval-based responses were integrated to suit our use case.
