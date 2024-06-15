@@ -61,10 +61,5 @@ The best variation of the aforementioned models can be seen in the table below. 
 | **ELECTRA** | **0.9792** | **0.9788** | 0.9677 | **0.9732** |
 
 
-![Uploading image.png…]()
-
-
-
-## 8. Chatbot Integration
-Run `chatbot.ipynb` to use the mental health chatbot, integrated with the suicidal detection model. The chatbot is based on DialoGPT and custom retrieval-based responses were integrated to suit our use case.
+![image](https://github.com/aniket-singh8299/SUICIDAL-TEXT--DETECTION/assets/89138903/596f0d8e-5b7f-4337-8c59-5903c6478031)
 
